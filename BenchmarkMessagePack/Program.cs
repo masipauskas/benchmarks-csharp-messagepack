@@ -7,7 +7,7 @@ namespace BenchmarkMessagePack
         static void Main(string[] args)
         {
             BenchmarkRunner.Run<DeserializeUsingStreamsBenchmark>();
-            BenchmarkRunner.Run<DeserializeUsingMemoryBenchmark>();
+            //BenchmarkRunner.Run<DeserializeUsingMemoryBenchmark>();
         }
     }
 }
