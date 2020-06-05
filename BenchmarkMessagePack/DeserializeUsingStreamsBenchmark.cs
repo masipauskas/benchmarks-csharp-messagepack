@@ -8,8 +8,8 @@ using MessagePack;
 
 namespace BenchmarkMessagePack
 {
-    [SimpleJob(RuntimeMoniker.NetCoreApp22)]
-    [SimpleJob(RuntimeMoniker.NetCoreApp30)]
+    [SimpleJob(RuntimeMoniker.NetCoreApp21)]
+    [SimpleJob(RuntimeMoniker.NetCoreApp31)]
     [RPlotExporter]
     [MarkdownExporter]
     public class DeserializeUsingStreamsBenchmark
