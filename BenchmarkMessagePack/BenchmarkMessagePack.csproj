@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+        <PackageReference Include="MessagePack" Version="2.1.115" />
+    </ItemGroup>
+</Project>
